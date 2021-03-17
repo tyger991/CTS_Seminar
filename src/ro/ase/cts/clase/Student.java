@@ -3,8 +3,8 @@ package ro.ase.cts.clase;
 import java.util.Arrays;
 
 public class Student extends Aplicant {
-	protected String facultate;
-	protected int an_studii;
+	private String facultate;
+	private int an_studii;
 	private static float sumaFinantare = 20;
 	
 	
@@ -24,7 +24,6 @@ public class Student extends Aplicant {
 
 	public Student() {
 		super();
-		
 	}
 	
 	public Student(String nume, String prenume, int varsta, int punctaj, int nr_proiecte, String[] denumireProiect, String facultate, int an_studii) {
@@ -40,7 +39,6 @@ public class Student extends Aplicant {
 				.append("Facultate= ").append(facultate).append("An studii: ").append(an_studii);
 		return stringBuilder.toString();
 	}
-
 
 	public float getSumaFinantata() {
 		return sumaFinantare;

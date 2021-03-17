@@ -46,13 +46,9 @@ public abstract class Aplicant{
 	public void setPunctaj(int punctaj) {
 		this.punctaj = punctaj;
 	}
-	
-	
 
-	
 	public Aplicant() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public Aplicant(String nume, String prenume, int varsta, int punctaj, int nr_proiecte, String[] denumiriProiecte) {
 		super();
@@ -67,6 +63,9 @@ public abstract class Aplicant{
 		return nr_proiecte;
 	}
 
+	public String[] getDenumiriProiecte() {
+		return denumiriProiecte;
+	}
 
 	public void setVectorDenumiri(String[] denumiriProiecte, int nr_proiecte){
 		this.nr_proiecte = nr_proiecte;
