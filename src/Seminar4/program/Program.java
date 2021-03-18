@@ -1,5 +1,6 @@
 package Seminar4.program;
 
+import Seminar4.clase.Cinema;
 import Seminar4.clase.Presedinte;
 import Seminar4.clase.PresedinteLazy;
 
@@ -24,5 +25,15 @@ public class Program {
 
         System.out.println(presedinteLazy1.toString());
         System.out.println(presedinteLazy2.toString());
+
+        System.out.println("----------------------");
+
+        Cinema cinema1 = Cinema.getInstance("Cinema Patria", 4, 2011.45);
+        Cinema cinema2 = Cinema.getInstance("Cinema City", 7, 2811.5);
+
+        cinema1.setDenumire("Happy Cinema");
+
+        System.out.println(cinema1.toString());
+        System.out.println(cinema2.toString());
     }
 }
