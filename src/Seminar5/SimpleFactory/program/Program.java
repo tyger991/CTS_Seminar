@@ -1,9 +1,8 @@
-package Seminar5.program;
+package Seminar5.SimpleFactory.program;
 
-import Seminar5.clase.Asistent;
-import Seminar5.clase.FactoryPersonal;
-import Seminar5.clase.PersonalSpital;
-import Seminar5.clase.TipPersonal;
+import Seminar5.SimpleFactory.clase.FactoryPersonal;
+import Seminar5.SimpleFactory.clase.PersonalSpital;
+import Seminar5.SimpleFactory.clase.TipPersonal;
 
 public class Program {
     public static  void main(String[] args){

@@ -1,4 +1,4 @@
-package Seminar5.clase;
+package Seminar5.SimpleFactory.clase;
 
 public class Medic extends PersonalSpital {
     public Medic(String nume) {

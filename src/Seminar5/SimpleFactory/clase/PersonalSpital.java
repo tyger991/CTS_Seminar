@@ -1,4 +1,4 @@
-package Seminar5.clase;
+package Seminar5.SimpleFactory.clase;
 
 public abstract class PersonalSpital {
     private String nume;
