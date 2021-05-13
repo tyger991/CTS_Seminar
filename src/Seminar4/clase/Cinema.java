@@ -50,6 +50,7 @@ public class Cinema {
         return instance;
     }
 
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Cinema{");
