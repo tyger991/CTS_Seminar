@@ -19,5 +19,4 @@ public class Client {
         tipPlata.plateste(suma);
     }
 
-
 }

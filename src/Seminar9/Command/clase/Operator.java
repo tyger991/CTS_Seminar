@@ -5,7 +5,8 @@ package Seminar9.Command.clase;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Operator {
+public class
+Operator {
 
     private List<Comanda> comenzi;
 
